@@ -20,11 +20,17 @@
     padding: 0 15px 0 15px;
 }
 
-.row::after {
+[class*="col-"]::after {
     content: "";
     clear: both;
     display: table;
 }
+
+/*.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
 
 /* negative margins not working... addition scroll appears */
 
