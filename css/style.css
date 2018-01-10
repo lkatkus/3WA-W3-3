@@ -1,0 +1,122 @@
+@import url('normalize.css');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    padding: 15px 0 15px 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.4em;
+    padding: 5px;
+    margin: 0;
+}
+
+.navBar{
+    color: white;
+    font-size: 1.6em;
+}
+
+.container{
+    width: 100%;
+}
+
+.main{
+    padding: 25px;
+}
+
+aside{
+    display: none;
+    padding: 25px;
+}
+
+/*TEXT STYLING*/
+
+.text-caps{
+    text-transform: uppercase;
+}
+
+.text-white{
+    color: white;
+}
+
+/*BACKGROUND COLORS*/
+
+.bgColorLightGreen{
+    background-color: #b6dbb1;
+}
+
+.bgColorGreen{
+    background-color: #30a893;
+}
+
+.bgColorGrey{
+    background-color: #f2f1f4;
+}
+
+/*IMAGE STYLING*/
+
+.imgLogo{
+    max-width: 200px;
+    height: auto;
+}
+
+/*MEDIA QUERIES*/
+
+/*TABLET*/
+@media screen and (min-width: 600px){
+    li{
+        display: inline-block;
+        padding: 15px 20px 15px 20px;
+    }
+
+    aside{
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main{
+        width: 75%;
+        float: left;
+    }
+
+    aside{
+        display: block;
+        width: 25%;
+        float: left;
+    }
+
+    li{
+        padding: 15px 30px 15px 30px;
+}
